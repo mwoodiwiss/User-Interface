@@ -49,7 +49,7 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 html, body {
@@ -64,3 +64,131 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.main-container {
+	margin: 0px auto;
+	width: 800px;
+}
+
+.menu {
+	margin: 22px auto;
+	display: inline-block;
+	width: 70%;
+}
+
+a {
+	display: inline-block;
+	margin-bottom: 10px;
+	margin-left: 7%;
+	text-decoration: none;
+	color: grey;
+}
+
+.logo {
+	float: right;
+	margin-top: 10px
+	
+}
+
+.container1 {
+	position: sticky;
+	top: 0;
+	background-color: white;
+  }
+
+.container1 {
+	display: inline-block;
+	list-style-type: none;
+	width: 100%
+}
+
+.header-text {
+	display: inline-block;
+	width: 59%;
+	text-align: center;
+	font-size: 60px;
+	vertical-align: middle;
+}
+
+.header-text h1 {
+	margin:0;
+}
+
+.container2 {
+	width: 100%;
+	padding: 20px 0px;
+}
+
+.header-img {
+	display: inline-block;
+	width: 39%;
+	vertical-align: middle;
+}
+
+.header-img img {
+	width: 100%;
+}
+
+.header-text a {
+	border: 1px solid black;
+	padding: 2px 15px;
+	font-size: 15px;
+	margin: 0 auto;
+	color: black;
+}
+
+.content-top {
+	width: 100%;
+	display: inline-block;
+	
+}
+
+.top-content-left {
+	float: left;
+	width: 49%;
+	margin: 20px 0;
+}
+
+.top-content-right {
+	float: right;
+	width: 49%;
+	margin: 20px 0;
+}
+
+.middle-img {
+	width: 100%;
+}
+
+.bottom-content {
+	width: 100%;
+	display: inline-block;
+}
+
+.bottom-content-left {
+	display: inline-block;
+	width: 33%;
+	margin: 20px 0;
+}
+
+.bottom-content-center {
+	display: inline-block;
+	width: 33%;
+	margin: 20px 0;
+}
+
+.bottom-content-right {
+	display: inline-block;
+	width: 33%;
+	margin: 20px 0;
+}
+
+.contact {
+	display: inline-block;
+	margin: 20px 0;
+}
+
+footer {
+	width: 100%;
+	margin: 20px auto 70px auto;
+	text-align: center;
+}
